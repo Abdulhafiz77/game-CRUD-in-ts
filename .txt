@@ -1,0 +1,5 @@
+localhost:/games -> get (names, discriptions, versions, create_at, update_at)
+localhost:/games/add -> post (names, discriptions,versin) add avtomatic create_at
+localhost:/games/:id -> get_by_id (name, discription, version, create_at, update_at)
+localhost:/games/:id -> put (name, discription, version) add avtomatic update_at
+localhost:/games/:id -> delete (name, discription, version, create_at, update_at)
